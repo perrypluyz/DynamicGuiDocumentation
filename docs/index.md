@@ -11,13 +11,13 @@ Before delving into DynamicGui, it's essential to grasp the anatomy or component
 In this example, we'll create a GUI with 2 rows named test.yml with an inventory title of "Test Menu". It will feature a single slot containing dirt. When a player clicks on the dirt block, the server will broadcast the message "Test Broadcast".
 
 ```yaml
-title: "Test Menu" #The title of the menu
+title: 'Test Menu' #The title of the menu
 rows: 2 #The amount of rows in the inventory, this will have 18 slots
 1:
-  icon: "DIRT"
+  icon: 'DIRT'
   functions:
     broadcast-click: #This can be named anything but it should be descriptive
-      type: "click" #The type of function to run
+      type: 'click' #The type of function to run
       function:
-      - "Broadcast: Test Broadcast"
+      - 'Broadcast: Test Broadcast'
 ```
