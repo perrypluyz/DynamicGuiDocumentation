@@ -1,3 +1,4 @@
 site_name: DynamicGui Documentation
 nav:
   - Home: index.md
+  - Functions: functions/index.md  
