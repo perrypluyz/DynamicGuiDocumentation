@@ -13,7 +13,7 @@ In this example, we'll create a GUI with 2 rows named test.yml with an inventory
 ```yaml
 title: 'Test Menu' #The title of the menu
 rows: 2 #The amount of rows in the inventory, this will have 18 slots
-1:
+0:
   icon: 'DIRT'
   functions:
     broadcast-click: #This can be named anything but it should be descriptive
