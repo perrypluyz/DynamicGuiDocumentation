@@ -13,6 +13,7 @@ Functions are the building blocks of DynamicGui and are part of what makes Dynam
 ```
 
 **Navigation and GUI Management:**
+
 1. **Back**: Navigates back to a previous state or location within a GUI.
 2. **Gui**: Opens a graphical user interface (GUI) with the specified name.
 3. **HasBack**: Checks if there's a navigation history (back functionality) available.
@@ -26,6 +27,7 @@ Functions are the building blocks of DynamicGui and are part of what makes Dynam
 11. **CheckMovable**: Checks if an entity or block is movable.
 
 **Player and Entity Management:**
+
 1. **AsyncRunning**: Checks if an asynchronous task is currently running.
 2. **CheckItemTypeInHand**: Checks the type of item currently held by the player.
 3. **CheckLevel**: Verifies if a specified level meets a certain criteria.
@@ -36,16 +38,19 @@ Functions are the building blocks of DynamicGui and are part of what makes Dynam
 8. **LoggedIn**: Checks if a player is logged into the server.
 
 **Cooldown and Timing:**
+
 1. **CheckTick**: Retrieves the current tick (unit of time) in the game.
 2. **IsOnCooldown**: Checks if a specified action or player is currently on cooldown.
 3. **SetCooldown**: Sets a cooldown for a specified action or player.
 4. **Delay**: Introduces a delay or pause in script execution.
 
 **Game Rule and Environment:**
+
 1. **GetGameRule**: Retrieves the value of a specific game rule in the world.
 2. **SetGamerule**: Sets a specific game rule in the world.
 
 **Logging and Messaging:**
+
 1. **Log**: Logs a message or event to the server console.
 2. **Msg**: Sends a message to players in the server.
 3. **MiniMsg**: Sends a message to the player on the server using the [minimessage](https://docs.advntr.dev/minimessage/format.html) format.
@@ -55,6 +60,7 @@ Functions are the building blocks of DynamicGui and are part of what makes Dynam
 7. **MiniBroadcast**: Sends a minimized message to all players in the Minecraft server.
 
 **Inventory and Item Management:**
+
 1. **OpenInventorySlots**: Opens additional inventory slots within a GUI.
 2. **RemoveSlot**: Removes an item from a specified inventory slot.
 3. **SetAmount**: Sets the quantity of items in a stack.
@@ -67,14 +73,17 @@ Functions are the building blocks of DynamicGui and are part of what makes Dynam
 10. **SetType**: Sets the type of an entity or block.
 
 **Permission Management:**
+
 1. **AddPermission**: Grants a player a specific permission.
 2. **HasPermission**: Checks if a player has a specific permission.
 3. **RemovePermission**: Removes a specific permission from a player.
 
 **Misc:**
+
 1. **Random**: Generates a random number within a specified range.
 
 **Game Mechanics and Events:**
+
 1. **Condition**: Evaluates a specified condition and returns a boolean result.
 2. **Particle**: Generates particle effects at a specified location.
 3. **ResetFrame**: Resets the frame counter.
@@ -83,6 +92,7 @@ Functions are the building blocks of DynamicGui and are part of what makes Dynam
 6. **Sound**: Plays a sound at a specified location in the game world.
 
 **Economy:**
+
 1. **MoneyBalance**: Retrieves the current balance of in-game currency for a player.
 2. **MoneyDeposit**: Deposits a specified amount of in-game currency into a player's balance.
 3. **MoneyWithdraw**: Withdraws a specified amount of in-game currency from a player's balance.
