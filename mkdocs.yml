@@ -1,4 +1,6 @@
 site_name: DynamicGui Documentation
 nav:
-  - Home: index.md
-  - Functions: functions/index.md  
+  - Basics: index.md
+  - GUI Anatomy: anatomy/index.md
+  - Functions: functions/index.md
+  - Macros: macros/index.md
